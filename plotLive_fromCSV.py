@@ -14,7 +14,7 @@ plt.style.use("seaborn-v0_8-whitegrid")
 plt.rcParams.update({"legend.frameon": True})
 MAX_FRAMES = 200
 
-FolderPath = Path('D:/BBRAUN/Datalog')
+FolderPath = Path('D:/COMPANY_NAME/Datalog')
 
 with shelve.open(str(FolderPath/'filePath')) as shelfFile:
     #FolderPath = shelfFile['folderPath']
