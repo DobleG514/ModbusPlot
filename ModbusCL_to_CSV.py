@@ -32,7 +32,7 @@ def saveLoop(filePath):
 
     
 
-FolderPath = Path('D:/BBRAUN/Datalog')
+FolderPath = Path('D:/COMPANY_NAME/Datalog')
 
 c = ModbusClient(host='192.168.1.92', port=502)
 
